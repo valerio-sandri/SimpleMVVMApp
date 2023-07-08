@@ -11,7 +11,8 @@
         <vm:LoginVM/>
     </UserControl.DataContext>
     <StackPanel Orientation="Vertical"
-                Margin="50">
+                Margin="50"
+                Background="Bisque">
         <TextBlock Text="Login"
                        FontSize="25"
                        HorizontalAlignment="Center"
