@@ -1,8 +1,3 @@
-C:\Users\Valerio\source\repos\SimpleMVVMApp\SimpleMVVMApp\bin\Debug\net6.0-windows\SimpleMVVMApp.exe
-C:\Users\Valerio\source\repos\SimpleMVVMApp\SimpleMVVMApp\bin\Debug\net6.0-windows\SimpleMVVMApp.deps.json
-C:\Users\Valerio\source\repos\SimpleMVVMApp\SimpleMVVMApp\bin\Debug\net6.0-windows\SimpleMVVMApp.runtimeconfig.json
-C:\Users\Valerio\source\repos\SimpleMVVMApp\SimpleMVVMApp\bin\Debug\net6.0-windows\SimpleMVVMApp.dll
-C:\Users\Valerio\source\repos\SimpleMVVMApp\SimpleMVVMApp\bin\Debug\net6.0-windows\SimpleMVVMApp.pdb
 C:\Users\Valerio\source\repos\SimpleMVVMApp\SimpleMVVMApp\obj\Debug\net6.0-windows\SimpleMVVMApp.csproj.AssemblyReference.cache
 C:\Users\Valerio\source\repos\SimpleMVVMApp\SimpleMVVMApp\obj\Debug\net6.0-windows\MainWindow.g.cs
 C:\Users\Valerio\source\repos\SimpleMVVMApp\SimpleMVVMApp\obj\Debug\net6.0-windows\Views\LoginView.g.cs
@@ -10,6 +5,11 @@ C:\Users\Valerio\source\repos\SimpleMVVMApp\SimpleMVVMApp\obj\Debug\net6.0-windo
 C:\Users\Valerio\source\repos\SimpleMVVMApp\SimpleMVVMApp\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\Valerio\source\repos\SimpleMVVMApp\SimpleMVVMApp\obj\Debug\net6.0-windows\SimpleMVVMApp_MarkupCompile.cache
 C:\Users\Valerio\source\repos\SimpleMVVMApp\SimpleMVVMApp\obj\Debug\net6.0-windows\SimpleMVVMApp_MarkupCompile.lref
+C:\Users\Valerio\source\repos\SimpleMVVMApp\SimpleMVVMApp\bin\Debug\net6.0-windows\SimpleMVVMApp.exe
+C:\Users\Valerio\source\repos\SimpleMVVMApp\SimpleMVVMApp\bin\Debug\net6.0-windows\SimpleMVVMApp.deps.json
+C:\Users\Valerio\source\repos\SimpleMVVMApp\SimpleMVVMApp\bin\Debug\net6.0-windows\SimpleMVVMApp.runtimeconfig.json
+C:\Users\Valerio\source\repos\SimpleMVVMApp\SimpleMVVMApp\bin\Debug\net6.0-windows\SimpleMVVMApp.dll
+C:\Users\Valerio\source\repos\SimpleMVVMApp\SimpleMVVMApp\bin\Debug\net6.0-windows\SimpleMVVMApp.pdb
 C:\Users\Valerio\source\repos\SimpleMVVMApp\SimpleMVVMApp\obj\Debug\net6.0-windows\MainWindow.baml
 C:\Users\Valerio\source\repos\SimpleMVVMApp\SimpleMVVMApp\obj\Debug\net6.0-windows\Views\LoginView.baml
 C:\Users\Valerio\source\repos\SimpleMVVMApp\SimpleMVVMApp\obj\Debug\net6.0-windows\SimpleMVVMApp.g.resources

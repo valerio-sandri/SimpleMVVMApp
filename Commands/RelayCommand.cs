@@ -9,7 +9,7 @@ namespace SimpleMVVMApp.Commands
 {
     internal class RelayCommand : ICommand
     {
-        private readonly Action <object> _executeAction;
+        private readonly Action<object> _executeAction;
 
         public RelayCommand(Action<object> executeAction)
         {
@@ -26,4 +26,7 @@ namespace SimpleMVVMApp.Commands
             remove { CommandManager.RequerySuggested += value; }
         }
     }
+
 }
+
+

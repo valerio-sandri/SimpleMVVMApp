@@ -52,8 +52,16 @@
                     Background="Black"
                     Margin="0,25"
                     Width="250"
-                    Command="{Binding LoginCommand}"
-                    CommandParameter="{Binding UserName}"
-                />
+                    Command="{Binding LoginCommand}">
+        </Button>
+        <Button x:Name="LogoutBtn"
+                    Content="Logout"
+                    Foreground="White"
+                    Background="Black"
+                    Margin="0,25"
+                    Width="250"
+                    Command="{Binding LogoutCommand}">
+        </Button>
+
     </StackPanel>
 </UserControl>

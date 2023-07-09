@@ -15,16 +15,41 @@ namespace SimpleMVVMApp.ViewModels
         private User user;
 
         public ICommand LoginCommand { get; }
+        public ICommand LogoutCommand { get; }
 
         public LoginVM()
         {
             user = new User();
-            LoginCommand = new RelayCommand((param) => LoggedIn(param));
+            LoginCommand = new RelayCommand((param) => Login());
+            LogoutCommand = new RelayCommand((param) => Logout());
         }
 
-        private void LoggedIn(object param)
+
+        private void Login()
         {
-            MessageBox.Show($"User {param} logged in.");
+            if (user.isLoggedIn)
+            {
+                MessageBox.Show($"User already logged in, press logout before logging in.");
+            }
+            else
+            {
+                //TODO: check if can login
+                user.isLoggedIn = true;
+                MessageBox.Show($"User {user.UserName} with Password {user.Password} logged in.");
+            }
+        }
+
+        private void Logout()
+        {
+            if (user.isLoggedIn)
+            {
+                user.isLoggedIn = false;
+                MessageBox.Show($"User {user.UserName} logged out.");
+            }
+            else
+            {
+                MessageBox.Show($"No user was logged in.");
+            }
         }
 
         public string UserName
@@ -46,7 +71,7 @@ namespace SimpleMVVMApp.ViewModels
                 OnPropertyChanged(nameof(Password));
             }
         }
-
-
     }
+
+
 }
