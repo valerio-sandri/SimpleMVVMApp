@@ -13,7 +13,7 @@ namespace SimpleMVVMApp.ViewModels
     internal class LoginVM : ViewModelBase
     {
         private User user;
-        private string userName;
+
         public ICommand LoginCommand { get; }
 
         public LoginVM()
