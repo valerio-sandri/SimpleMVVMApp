@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Valerio\source\repos\SimpleMVVMApp\SimpleMVVMApp\obj\Debug\net6.0-windows\
+C:\Users\vasandri\OneDrive - Manz AG\Documenti\GitHub\SimpleMVVMApp\obj\Debug\net6.0-windows\
 SimpleMVVMApp
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\Valerio\source\repos\SimpleMVVMApp\SimpleMVVMApp\App.xaml
+C:\Users\vasandri\OneDrive - Manz AG\Documenti\GitHub\SimpleMVVMApp\App.xaml
 21727942632
 
-10-927448272
+11-1547354832
 194-1617825143
 MainWindow.xaml;Views\LoginView.xaml;
 
-True
+False
 

@@ -10,16 +10,14 @@ using System.Windows.Input;
 
 namespace SimpleMVVMApp.ViewModels
 {
+
     internal class LoginVM : ViewModelBase
     {
-        private User user;
-
         public ICommand LoginCommand { get; }
         public ICommand LogoutCommand { get; }
 
         public LoginVM()
         {
-            user = new User();
             LoginCommand = new RelayCommand((param) => Login());
             LogoutCommand = new RelayCommand((param) => Logout());
         }
@@ -27,24 +25,47 @@ namespace SimpleMVVMApp.ViewModels
 
         private void Login()
         {
-            if (user.isLoggedIn)
+            if (User.GetInstance().isLoggedIn)
             {
                 MessageBox.Show($"User already logged in, press logout before logging in.");
             }
             else
             {
-                //TODO: check if can login
-                user.isLoggedIn = true;
-                MessageBox.Show($"User {user.UserName} with Password {user.Password} logged in.");
+                if (!string.IsNullOrEmpty(LoginCredentials.GetInstance().UserName))
+                {
+                    if (!string.IsNullOrEmpty(LoginCredentials.GetInstance().Password))
+                    {
+                        //TODO: try login!
+
+                        if (User.GetInstance().Login(LoginCredentials.GetInstance().UserName, LoginCredentials.GetInstance().Password))
+                        {
+                            MessageBox.Show($"User {User.GetInstance().UserName} with Password {User.GetInstance().Password} logged in.");
+                        }
+                        else
+                        {
+                            MessageBox.Show($"User {User.GetInstance().UserName} with Password {User.GetInstance().Password} login failed.");
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show($"Password string is empty.");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show($"User string is empty.");
+                }
+
             }
         }
 
         private void Logout()
         {
-            if (user.isLoggedIn)
+            if (User.GetInstance().isLoggedIn)
             {
-                user.isLoggedIn = false;
-                MessageBox.Show($"User {user.UserName} logged out.");
+                User.GetInstance().Logout();
+
+                MessageBox.Show($"User {User.GetInstance().UserName} logged out.");
             }
             else
             {
@@ -54,23 +75,24 @@ namespace SimpleMVVMApp.ViewModels
 
         public string UserName
         {
-            get => user.UserName;
+            get => LoginCredentials.GetInstance().UserName;
             set
             {
-                user.UserName = value;
+                LoginCredentials.GetInstance().UserName = value;
                 OnPropertyChanged(nameof(UserName));
             }
         }
 
         public string Password
         {
-            get => user.Password;
+            get => LoginCredentials.GetInstance().Password;
             set
             {
-                user.Password = value;
+                LoginCredentials.GetInstance().Password = value;
                 OnPropertyChanged(nameof(Password));
             }
         }
+
     }
 
 
