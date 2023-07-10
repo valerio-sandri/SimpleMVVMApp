@@ -46,3 +46,27 @@ C:\Users\vasandri\OneDrive - Manz AG\Documenti\GitHub\SimpleMVVMApp\obj\Debug\ne
 C:\Users\vasandri\OneDrive - Manz AG\Documenti\GitHub\SimpleMVVMApp\obj\Debug\net6.0-windows\SimpleMVVMApp.pdb
 C:\Users\vasandri\OneDrive - Manz AG\Documenti\GitHub\SimpleMVVMApp\obj\Debug\net6.0-windows\SimpleMVVMApp.genruntimeconfig.cache
 C:\Users\vasandri\OneDrive - Manz AG\Documenti\GitHub\SimpleMVVMApp\obj\Debug\net6.0-windows\ref\SimpleMVVMApp.dll
+C:\Users\PYTHON\Documents\GitHub\SimpleMVVMApp\bin\Debug\net6.0-windows\SimpleMVVMApp.exe
+C:\Users\PYTHON\Documents\GitHub\SimpleMVVMApp\bin\Debug\net6.0-windows\SimpleMVVMApp.deps.json
+C:\Users\PYTHON\Documents\GitHub\SimpleMVVMApp\bin\Debug\net6.0-windows\SimpleMVVMApp.runtimeconfig.json
+C:\Users\PYTHON\Documents\GitHub\SimpleMVVMApp\bin\Debug\net6.0-windows\SimpleMVVMApp.dll
+C:\Users\PYTHON\Documents\GitHub\SimpleMVVMApp\bin\Debug\net6.0-windows\SimpleMVVMApp.pdb
+C:\Users\PYTHON\Documents\GitHub\SimpleMVVMApp\obj\Debug\net6.0-windows\SimpleMVVMApp.csproj.AssemblyReference.cache
+C:\Users\PYTHON\Documents\GitHub\SimpleMVVMApp\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\PYTHON\Documents\GitHub\SimpleMVVMApp\obj\Debug\net6.0-windows\Views\LoginView.g.cs
+C:\Users\PYTHON\Documents\GitHub\SimpleMVVMApp\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\PYTHON\Documents\GitHub\SimpleMVVMApp\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\PYTHON\Documents\GitHub\SimpleMVVMApp\obj\Debug\net6.0-windows\SimpleMVVMApp_MarkupCompile.cache
+C:\Users\PYTHON\Documents\GitHub\SimpleMVVMApp\obj\Debug\net6.0-windows\SimpleMVVMApp_MarkupCompile.lref
+C:\Users\PYTHON\Documents\GitHub\SimpleMVVMApp\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\PYTHON\Documents\GitHub\SimpleMVVMApp\obj\Debug\net6.0-windows\Views\LoginView.baml
+C:\Users\PYTHON\Documents\GitHub\SimpleMVVMApp\obj\Debug\net6.0-windows\SimpleMVVMApp.g.resources
+C:\Users\PYTHON\Documents\GitHub\SimpleMVVMApp\obj\Debug\net6.0-windows\SimpleMVVMApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PYTHON\Documents\GitHub\SimpleMVVMApp\obj\Debug\net6.0-windows\SimpleMVVMApp.AssemblyInfoInputs.cache
+C:\Users\PYTHON\Documents\GitHub\SimpleMVVMApp\obj\Debug\net6.0-windows\SimpleMVVMApp.AssemblyInfo.cs
+C:\Users\PYTHON\Documents\GitHub\SimpleMVVMApp\obj\Debug\net6.0-windows\SimpleMVVMApp.csproj.CoreCompileInputs.cache
+C:\Users\PYTHON\Documents\GitHub\SimpleMVVMApp\obj\Debug\net6.0-windows\SimpleMVVMApp.dll
+C:\Users\PYTHON\Documents\GitHub\SimpleMVVMApp\obj\Debug\net6.0-windows\refint\SimpleMVVMApp.dll
+C:\Users\PYTHON\Documents\GitHub\SimpleMVVMApp\obj\Debug\net6.0-windows\SimpleMVVMApp.pdb
+C:\Users\PYTHON\Documents\GitHub\SimpleMVVMApp\obj\Debug\net6.0-windows\SimpleMVVMApp.genruntimeconfig.cache
+C:\Users\PYTHON\Documents\GitHub\SimpleMVVMApp\obj\Debug\net6.0-windows\ref\SimpleMVVMApp.dll
